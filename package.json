@@ -1,0 +1,14 @@
+{
+	"name": "mariowebsite",
+	"description": "MarioesBranch of Meh Website",
+	"main": "server.js",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"author": "imwood04/mario",
+	"license": "BSD-3-Clause"
+}
