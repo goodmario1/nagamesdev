@@ -1,0 +1,169 @@
+/*Changes Background for Devices under 600px (Mainly Mobile)*/
+@media only screen and (max-width: 600px) {
+body{
+background-image: url("https://media.discordapp.net/attachments/680689357661012019/756771789354303538/background.jpg?width=760&height=760");
+background-color: #cccccc;
+object-fit: cover;
+}
+}
+/*Changed Background for Devices over 600px Tablets/Laptops/Computer Ect.*/
+@media only screen and (min-width: 600px) {
+body{
+background-image: url("https://media.discordapp.net/attachments/680689357661012019/756771789354303538/background.jpg?width=760&height=760");
+background-color: #cccccc;
+background-size: 110%;
+}
+}
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}
+.vidPromote {
+text-align: center;
+font-size: 20px;
+color: white; 
+}
+img.darrow {
+width: 120px;
+height: auto;
+text-align: center
+}
+.video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 35px;
+height: 0;
+overflow: hidden;
+}
+.video iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+*{
+margin: 0;
+padding: 0;
+font-family: "montserrat",sans-serif;
+box-sizing: border-box;
+}
+.header{
+height: 100px;
+background: #34495e;
+padding: 0 20px;
+color: #fff;
+}
+.logo{
+line-height: 100px;
+float: left;
+text-transform: uppercase;
+font-size: 4vh;
+}
+.menu{
+float: right;
+line-height: 100px;
+}
+.menu a{
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+padding: 0 10px;
+transition: 0.4s;
+z-index: 99;
+}
+.show-menu-btn,.hide-menu-btn{
+transition: 0.4s;
+font-size: 30px;
+cursor: pointer;
+display: none;
+}
+.show-menu-btn{
+float: right;
+}
+.show-menu-btn i{
+line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+color: #3498db;
+}
+#chk{
+position: absolute;
+visibility: hidden;
+z-index: -1111;
+}
+.content{
+padding: 0 20px;
+}
+.content img{
+width: 100%;
+max-width: 700px;
+margin: 20px 0;
+}
+.content p{
+text-align: justify;
+}
+/*Detects If pixels go under 800 if so brings up menu button*/
+@media screen and (max-width:800px) {
+.show-menu-btn,.hide-menu-btn{
+display: block;
+}
+.menu{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #333;
+right: -100%;
+top: 0;
+text-align: center;
+padding: 80px 0;
+line-height: normal;
+transition: 0.7s;
+z-index: 98;
+}
+.menu a{
+display: block;
+padding: 5vh;
+z-index: 98;
+}
+.hide-menu-btn{
+position: absolute;
+top: 40px;
+right: 40px;
+}
+#chk:checked ~ .menu{
+right: 0;
+}
+}
+.twit {
+top: -20px;
+}
+.disc {
+right: -10px;
+top: 5px;
+}
+}
+.footer {
+height: 40px;
+background-color: ;
+}
+.page {
+width: 100%;
+height: 100px;
+margin: 0 auto;
+overflow: hidden;
+}
+.yt {
+	position: relative;
+	z-index: 97
+}
+.twit {
+	position: relative;
+	top: -10px;
+	z-index: 97;
+}
