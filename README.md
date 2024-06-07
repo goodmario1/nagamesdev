@@ -1,3 +1,5 @@
+**NOTE**: _This repository is no longer updated._</code>
+
 # NaGames Website
 Official NaGames Website GitHub
 <br> <a href="https://nagames.herokuapp.com/" span title="Go to site">NaGames</a>
